@@ -1,0 +1,9 @@
+﻿<Window x:Class="ViewFormulaire.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TakeContact" Height="350" Width="550" Icon="/TakeContact;component/Images/contact-4.ico">
+
+    <Grid Height="350" Width="550" >
+        
+    </Grid>
+</Window>

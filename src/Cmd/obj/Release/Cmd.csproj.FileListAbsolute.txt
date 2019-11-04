@@ -1,0 +1,13 @@
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\bin\Release\SampleDatabase.sdf
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.dll.config
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.dll
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.pdb
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\obj\Release\Cmd.dll
+D:\prog\design_patterns\WPF-FormulaireSaisie\Cmd\obj\Release\Cmd.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.dll.config
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\bin\Release\Cmd.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\obj\Release\Cmd.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\obj\Release\Cmd.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\bin\Release\Database.sdf
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\Cmd\obj\Release\Cmd.csprojResolveAssemblyReference.cache

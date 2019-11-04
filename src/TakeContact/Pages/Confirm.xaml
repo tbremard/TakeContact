@@ -1,0 +1,22 @@
+﻿<Page x:Class="ViewFormulaire.Confirmation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="375" d:DesignWidth="500"
+	Title="Confirmation">
+    <Viewbox Stretch="Uniform">
+
+        <Grid Height="370" Width="500">
+            <TextBlock Height="100" Width="500" HorizontalAlignment="Left" 
+                       Margin="0,75,0,0" Name="txtConfirm" 
+                       TextAlignment="Center"
+                       FontSize="20"
+                       Text="Merci !&#10; N'oubliez pas de nous envoyer aussi vos photos: t.bremard@gmail.com" 
+                       VerticalAlignment="Top"
+                       TextWrapping="Wrap" />
+            <Button  Style="{StaticResource btnStyle}" Content="Continuer" Height="32" HorizontalAlignment="Left" Margin="164,212,0,0" Name="btnContinue" VerticalAlignment="Top" Width="160" Click="btnContinue_Click" />
+        </Grid>
+    </Viewbox>
+</Page>

@@ -1,0 +1,67 @@
+﻿<Page x:Class="ViewFormulaire.ViewList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="375" d:DesignWidth="500"
+	Title="ViewList">
+    <Viewbox Stretch="Uniform">
+
+        <Grid Height="370" Width="500">
+            <DataGrid   
+            ColumnWidth="*" 
+            AutoGenerateColumns="False" 
+            RowHeight="20"
+            ColumnHeaderHeight="30"
+            BorderThickness="5"
+            Height="300" 
+            Width="460" 
+            HorizontalAlignment="Left" 
+            Margin="20,10,0,0" 
+            Name="gridList" 
+            VerticalAlignment="Top" 
+            CanUserReorderColumns="False" 
+            CanUserResizeRows="False" 
+            Focusable="False" 
+            IsReadOnly="True" 
+            AlternatingRowBackground="Pink" 
+            HorizontalContentAlignment="Stretch" 
+            HorizontalScrollBarVisibility="Disabled" 
+            HeadersVisibility="Column">
+                <DataGrid.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStopCollection>
+                                    <GradientStop Color="LightPink"  Offset="0.0" />
+                                    <GradientStop Color="HotPink"  Offset="0.5" />
+                                    <GradientStop Color="Purple"  Offset="1.0" />
+                                </GradientStopCollection>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                </DataGrid.BorderBrush>
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="cLastName" Binding="{Binding LastName}" Header="Nom"  />
+                    <DataGridTextColumn x:Name="cFirstName" Binding="{Binding FirstName}" Header="Prénom" />
+                    <DataGridTextColumn x:Name="cEmail" Binding="{Binding Email}" Header="Email" />
+                </DataGrid.Columns>
+
+                <DataGrid.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected"
+                        Value="True">
+                                <Setter Property="Background" Value="HotPink" />
+                                <Setter Property="Foreground"
+                        Value="Black" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.CellStyle>
+            </DataGrid>
+            
+            <Button  Style="{StaticResource btnStyle}" Content="Continuer" Height="40" HorizontalAlignment="Left" Margin="177,320,0,0" Name="btnContinue" VerticalAlignment="Top" Width="160" Click="btnContinue_Click" />
+            <Button  Style="{StaticResource btnStyle}" Content="Export Excel" Height="40" HorizontalAlignment="Left" Margin="386,320,0,0" Name="btnPrint" VerticalAlignment="Top" Width="91" Click="btnPrint_Click" />
+        </Grid>
+    </Viewbox>
+</Page>

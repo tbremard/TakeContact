@@ -1,0 +1,11 @@
+D:\prog\design_patterns\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\obj\Release\Cmd.Tests.csprojResolveAssemblyReference.cache
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\Cmd.Tests.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\Cmd.Tests.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\Cmd.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\nunit.framework.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\Cmd.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\nunit.framework.xml
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\obj\Release\Cmd.Tests.csprojResolveAssemblyReference.cache
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\obj\Release\Cmd.Tests.dll
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\obj\Release\Cmd.Tests.pdb
+C:\dev\WPF-FormulaireSaisie\WPF-FormulaireSaisie\ViewFormulaire\Cmd.Tests\bin\Release\Database.sdf

@@ -1,0 +1,3 @@
+An unhandled exception of type 'System.DllNotFoundException' occurred in System.Data.SqlServerCe.dll
+
+Additional information: Impossible de charger la DLL 'sqlceme35.dll': Le module spécifié est introuvable. (Exception de HRESULT : 0x8007007E)
